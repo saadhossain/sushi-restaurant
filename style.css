@@ -2,8 +2,19 @@
 /* Banner section  */
 
 /* Common Styles */
+
+/* Custom fonts */
+@font-face {
+    font-family: gooddog;
+    src: url(fonts/gooddog.TTF);
+}
+body{
+    background-image: url(img/bg-overlay.png);
+    z-index: 999;
+}
 .sushi-text{
     color: #6d963a;
+    font-family: gooddog;
 }
 .sushi-button{
     background-color:#6d963a ;
