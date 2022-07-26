@@ -1,0 +1,24 @@
+
+/* Banner section  */
+
+/* Common Styles */
+.sushi-text{
+    color: #6d963a;
+}
+.sushi-button{
+    background-color:#6d963a ;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.header-banner{
+    background-image: url(img/header-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top:-90px;
+}
