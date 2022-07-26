@@ -1,4 +1,3 @@
-
 /* Banner section  */
 
 /* Common Styles */
@@ -8,16 +7,24 @@
     font-family: gooddog;
     src: url(fonts/gooddog.TTF);
 }
-body{
+
+body {
     background-image: url(img/bg-overlay.png);
     z-index: 999;
 }
-.sushi-text{
+
+.sushi-text {
     color: #6d963a;
     font-family: gooddog;
 }
-.sushi-button{
-    background-color:#6d963a ;
+.sushi-bg{
+    background-color: #45493b;
+}
+.font-good{
+    font-family: gooddog;
+}
+.sushi-button {
+    background-color: #6d963a;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -25,19 +32,21 @@ body{
     border-radius: 5px;
     border: none;
 }
-.header-banner{
+
+/* header secton stayles */
+.header-banner {
     background-image: url(img/header-bg.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-top:-90px;
+    margin-top: -90px;
 }
 
 /* main website styles */
 
 /* Cook section styles */
-.cook{
+.cook {
     background-color: #212121;
-    color:#fff;
+    color: #fff;
 }
