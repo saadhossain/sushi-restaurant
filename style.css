@@ -9,8 +9,8 @@
 }
 
 body {
-    background-image: url(img/bg-overlay.png);
-    z-index: 999;
+    background-color: #212121;
+    background-image: url(img/bg-overlay-leaf.png);
 }
 
 .sushi-text {
