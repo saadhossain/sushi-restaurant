@@ -7,10 +7,12 @@
     font-family: gooddog;
     src: url(fonts/gooddog.TTF);
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     background-color: #212121;
     background-image: url(img/bg-overlay-leaf.png);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sushi-text {
@@ -49,4 +51,18 @@ body {
 .cook {
     background-color: #212121;
     color: #fff;
+}
+
+/* Discover our new menu section styles */
+.discover-menu{
+    background-image:url(img/food-bg.jpg);
+    height: 1700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-items img{
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
 }
