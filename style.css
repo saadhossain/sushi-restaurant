@@ -7,11 +7,14 @@
     font-family: gooddog;
     src: url(fonts/gooddog.TTF);
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
     background-color: #212121;
     background-image: url(img/bg-overlay-leaf.png);
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -19,12 +22,22 @@ body {
     color: #6d963a;
     font-family: gooddog;
 }
-.sushi-bg{
+.sushi-text-nav{
+    color: #6d963a;
+    font-family: gooddog;
+    font-size: 25px;
+}
+.sushi-text-nav:hover{
+    color: #fff;
+}
+.sushi-bg {
     background-color: #45493b;
 }
-.font-good{
+
+.font-good {
     font-family: gooddog;
 }
+
 .sushi-button {
     background-color: #6d963a;
     color: #fff;
@@ -54,14 +67,15 @@ body {
 }
 
 /* Discover our new menu section styles */
-.discover-menu{
-    background-image:url(img/food-bg.jpg);
-    height: 1700px;
+.discover-menu {
+    background-image: url(img/food-bg.jpg);
+    height: 1200px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
-.menu-items img{
+.menu-items img {
     height: 80px;
     width: 80px;
     margin-right: 20px;
